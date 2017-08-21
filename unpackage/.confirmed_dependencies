@@ -1,0 +1,52 @@
+{
+  "index.html": {
+    "resources": [
+      "js/materialize.min.js",
+      "img/profile-picture.jpg",
+      "img/slogan.png",
+      "css/information-phone.css",
+      "img/background-nav.png",
+      "css/nav.css",
+      "css/information.css",
+      "css/materialize.min.css",
+      "index.html"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "upload.html": {
+    "resources": [
+      "js/materialize.min.js",
+      "img/slogan.png",
+      "img/background-nav.png",
+      "css/upload-phone.css",
+      "css/nav.css",
+      "css/upload.css",
+      "css/materialize.min.css",
+      "css/phone.css",
+      "img/profile-picture.jpg",
+      "js/upload.js",
+      "img/preview-picture.png"
+    ],
+    "refer": []
+  },
+  "information.html": {
+    "resources": [
+      "js/materialize.min.js",
+      "js/information.js",
+      "img/profile-picture.jpg",
+      "img/slogan.png",
+      "css/phone.css",
+      "img/background-nav.png",
+      "css/nav.css",
+      "css/information.css",
+      "css/materialize.min.css",
+      "information.html",
+      "/upload.html",
+      "/information.html",
+      "js/jquery-3.2.1.js"
+    ],
+    "refer": []
+  }
+}
