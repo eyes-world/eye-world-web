@@ -1,8 +1,12 @@
+@font-face{
+         font-family： '小米兰亭 Light';
+         src: url('../fonts/xiaomi_lanting.ttf');
+ }
 html{
 	font-size: 10px!important;
 }
 body{
-	font-family: "小米兰亭 Light","微软雅黑 Light",serif !important;
+	font-family: "小米兰亭 Light","微软雅黑 Light" !important;
 	background-color: rgb(233,233,233);
 }
 nav{height:88px !important;background-color:transparent!important;background-image: url(../img/background-nav.png);

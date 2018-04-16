@@ -26,38 +26,18 @@
 				</div>
 				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down " id="menu">
-					<li>
-						<a href="">首页</a>
-					</li>
-					<li>
-						<a href="">我的作品</a>
-					</li>
-					<li>
-						<a href="/upload.html">我要上传</a>
-					</li>
-					<li>
-						<a href="">我的评论</a>
-					</li>
-					<li>
-						<a href="/information.html">我的信息</a>
-					</li>
+					<li><a href="mainpage.html">首页</a></li>
+					<li><a href="mywork.html">我的作品</a></li>
+					<li><a href="upload.html">我要上传</a></li>
+					<li><a href="#" onclick="alert_1()">我的评论</a></li>
+					<li><a href="information.html">我的信息</a></li>
 				</ul>
 				<ul class="side-nav" id="mobile-demo">
-					<li>
-						<a href="">首页</a>
-					</li>
-					<li>
-						<a href="">我的作品</a>
-					</li>
-					<li>
-						<a href="/upload.html">我要上传</a>
-					</li>
-					<li>
-						<a href="">我的评论</a>
-					</li>
-					<li>
-						<a href="/information.html">我的信息</a>
-					</li>
+					<li><a href="mainpage.html">首页</a></li>
+					<li><a href="mywork.html">我的作品</a></li>
+					<li><a href="upload.html">我要上传</a></li>
+					<li><a href="#" onclick="alert_1()">我的评论</a></li>
+					<li><a href="information.html">我的信息</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -90,10 +70,16 @@
 			</div>
 
 			<div class="row">
-				<div class="m_frame col s10 l4 offset-s1 offset-l4" style="margin-bottom: 40px;">
+				<div class="m_frame col s10 l4 offset-s1 offset-l4">
 					<div class="left">帐号</div>
 					<div class="right">13312345678</div>
 				</div>
+			</div>
+			
+			<div class="row">
+			<div class="log-out col s10 l4 offset-s1 offset-l4" style="padding: 0;">
+				<input type="submit" value="log-out" id="log-out"/>退出登录
+			</div>
 			</div>
 		</div>
 		<!--test2-->
@@ -104,7 +90,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="m_box col s10 l4 offset-s1 offset-l4">
+				<div class="m_box col s10 l4 offset-s1 offset-l4" style="margin-bottom: 40px;">
 					<form action="" method="post">
 						<div class="button left" onchange="previewFile()"><input type="file" name="" />上传头像</div>
 						<div class="button right"><input type="" value="abc" onclick="display_alert()"/>确认更改</div>
@@ -125,7 +111,7 @@
 						<div class="left">新昵称</div>
 						<input type="text" placeholder="请输入新昵称" name="" maxlength="12" />
 					</div>
-					<div class=" col s10 l4 offset-s1 offset-l4" style="padding: 0;">
+					<div class=" col s10 l4 offset-s1 offset-l4" style="padding: 0;margin-bottom: 40px;">
 						<div class=" button right"><input type="" value="abc" onclick="display_alert()"/>确认更改</div>
 					</div>
 				</form>
@@ -143,7 +129,7 @@
 						<div class="left">新密码</div>
 						<input type="password" placeholder="新密码（大于6位）" name="newPassword" id="newPassword"/>
 					</div>
-					<div class=" col s10 l4 offset-s1 offset-l4" style="padding: 0;">
+					<div class=" col s10 l4 offset-s1 offset-l4" style="padding: 0;margin-bottom: 40px;">
 						<div class=" button right"><input type="submit" value="submit" id="upload"/>确认更改</div>
 					</div>
 				</form>
@@ -154,6 +140,7 @@
 		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 		<script type="text/javascript" src="js/materialize.min.js"></script>
 		<script type="text/javascript" src="js/information.js"></script>
+		<script type="text/javascript" src="js/alert.js"></script>
 	</body>
 
 </html>
